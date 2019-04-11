@@ -1,0 +1,6 @@
+.gitignore
+.editorconfig
+.travis.yml
+.DS_Store
+.vscode
+test/
