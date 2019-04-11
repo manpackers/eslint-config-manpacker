@@ -12,7 +12,7 @@ npm install eslint-config-manpacker -D
 ```
 ## Usage
 
-- ### First
+- First <br>
  Add &nbsp;<code>.eslintrc</code> &nbsp; file to your project. &nbsp;<br/>
  Or <code>.eslintrc</code> file does not exist, Create a new file.
 
@@ -27,7 +27,7 @@ Configuration content of file.
   "extends": ["manpacker"]
 }
 ```
-- ### Second
+- Second <br>
 You can add a configuration entry to the <code>package.json</code> file as follows.
 
 ```
@@ -44,3 +44,6 @@ Example:<br>
   "rules": {}
 }
 ```
+
+## Npm
+[link](https://www.npmjs.com/package/eslint-config-manpacker)
