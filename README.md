@@ -1,4 +1,11 @@
 # elsint-config-manpacker
+![npm](https://img.shields.io/npm/v/eslint-config-manpacker.svg)
+![npm bundle size](https://img.shields.io/bundlephobia/min/eslint-config-manpacker.svg)
+![npm](https://img.shields.io/npm/dw/eslint-config-manpacker.svg)
+![NPM](https://img.shields.io/npm/l/eslint-config-manpacker.svg)
+<br><br>
+![nodei.co](https://nodei.co/npm/eslint-config-manpacker.png?downloads=true&downloadRank=true&stars=true)
+<br>
 ## Explain
 This project uses parser <code>"babel-eslint"</code><br/>
 And plugin <code>"import", "node", "promise", "standard"</code>.<br> Inherits <code>"standard"</code>
