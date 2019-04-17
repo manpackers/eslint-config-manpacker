@@ -79,9 +79,6 @@ module.exports = {
     // The file ends with a single newline character
     'eol-last': 'warn',
 
-    // Is an empty line required after variable declaration
-    'newline-after-var': 'warn',
-
     // The bracketed style of executing a function expression immediately
     'wrap-iife': [2, 'inside'],
 
