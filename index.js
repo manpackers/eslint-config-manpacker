@@ -17,6 +17,7 @@ module.exports = {
       modules: true,
       blockBindings: true,
       defaultParams: true,
+      legacyDecorators: true,
       objectLiteralComputedProperties: true
     },
     sourceType: 'module'
