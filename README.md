@@ -1,4 +1,3 @@
-# elsint-config-manpacker
 ![npm](https://img.shields.io/npm/v/eslint-config-manpacker.svg)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/eslint-config-manpacker.svg)
 ![npm](https://img.shields.io/npm/dw/eslint-config-manpacker.svg)
