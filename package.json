@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-manpacker",
-  "version": "8.0.0",
+  "version": "1.1.0",
   "description": "Manpacker Javascirpt eslint style config standard code style",
   "main": "index.js",
   "directories": {
