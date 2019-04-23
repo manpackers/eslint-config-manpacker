@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-manpacker",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Manpacker Javascirpt eslint style config standard code style",
   "main": "index.js",
   "directories": {
@@ -10,6 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/manpackers/eslint-config-manpacker.git"
   },
+  "bugs": {
+    "url": "https://github.com/manpackers/eslint-config-manpacker/issues"
+  },
+  "homepage": "https://github.com/manpackers/eslint-config-manpacker",
   "scripts": {
     "lint": "eslint ./test --config=index.js",
     "test": "npm run lint && tape test/*.js"
@@ -24,7 +28,7 @@
     "check"
   ],
   "author": {
-    "name": "WinterFete"
+    "name": "winterfete"
   },
   "license": "MIT",
   "devDependencies": {
