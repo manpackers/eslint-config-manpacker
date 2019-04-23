@@ -68,6 +68,9 @@ module.exports = {
     // You cannot have an assignment expression in a return statement
     'no-return-assign': 'warn',
 
+    // You cannot retrun await key word
+    'no-return-await': 'off',
+
     // No spaces at the end of the line
     'no-trailing-spaces': 'warn',
 
