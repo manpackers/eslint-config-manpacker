@@ -66,7 +66,7 @@ module.exports = {
     'no-path-concat': 'warn',
 
     // You cannot have an assignment expression in a return statement
-    'no-return-assign': 'warn',
+    'no-return-assign': 'off',
 
     // You cannot retrun await key word
     'no-return-await': 'off',
