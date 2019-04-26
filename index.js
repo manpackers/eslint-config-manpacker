@@ -1,5 +1,4 @@
 var isProduction = process.env.NODE_ENV === 'production'
-
 module.exports = {
   env: {
     browser: true,
@@ -68,11 +67,20 @@ module.exports = {
     // You cannot have an assignment expression in a return statement
     'no-return-assign': 'off',
 
-    // You cannot retrun await key word
+    // disallow unnecessary return await
     'no-return-await': 'off',
+
+    // require var declarations be placed at the top of their containing scope
+    'vars-on-top': 'warn',
 
     // No spaces at the end of the line
     'no-trailing-spaces': 'warn',
+
+    // Requires yield inside the generator function
+    'require-yield': 'error',
+
+    // disallow async functions which have no await expression
+    'require-await': 'error',
 
     // Do you want to allow extra spaces in a non-empty array
     'array-bracket-spacing': ['warn', 'never'],
