@@ -40,6 +40,9 @@ module.exports = {
     // Disable the use of arguments.caller or arguments.callee.
     'no-caller': 'error',
 
+    // enforce camelcase naming convention properties's never
+    camelcase: ['error', { properties: 'never' }],
+
     // Disable the use of "console".
     'no-console': isProduction ? 'error' : 'off',
 
