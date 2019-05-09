@@ -48,7 +48,7 @@ module.exports = {
     'no-console': isProduction ? 'error' : 'off',
 
     // Disable the use of "debugger".
-    'no-debugge': isProduction ? 'error' : 'off',
+    'no-debugger': isProduction ? 'error' : 'off',
 
     // If there's a "return", in the "if" statement, you can't follow the "else" statement.
     'no-else-return': 'warn',
