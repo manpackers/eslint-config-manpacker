@@ -32,7 +32,8 @@ module.exports = {
     window: false,
     $: false,
     jQuery: false,
-    global: false
+    global: false,
+    NODE_ENV: false
   },
 
   // Reset rules's configuration information for some "eslint-config-standard".
