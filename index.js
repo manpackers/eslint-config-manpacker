@@ -104,6 +104,9 @@ module.exports = {
     'no-unexpected-multiline': 'off',
 
     // Do you want to have spaces before parentheses when a function is defined
-    'space-before-function-paren': ['warn', 'never']
+    'space-before-function-paren': ['warn', 'never'],
+
+    // disallow new operators outside of assignments or comparisons
+    'no-new': 'off'
   }
 }
